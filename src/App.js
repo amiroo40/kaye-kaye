@@ -7,7 +7,7 @@ import { Header } from './components'
 const App = () => {
     return (
         <>
-            <div className="bg-slate-600">
+            <div className="bg-slate-300 h-full">
                 <Header />
                 <Routes>
                     <Route path='/games' element={<Games />} />

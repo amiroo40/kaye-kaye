@@ -1,0 +1,29 @@
+.slider {
+    width: 70%;
+}
+
+.item {
+    animation-name: fadeIn;
+    animation-duration: 2s;
+}
+
+.item img {
+    height: 80vh;
+    width: 100%;
+}
+
+@media screen and (max-width:640px) {
+    .item img {
+        height: 40vh;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .slider {
+        width: 100%;
+    }
+
+    .item img {
+        height: 60vh;
+    }
+}
